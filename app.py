@@ -6,9 +6,10 @@ import joblib
 import streamlit as st
 import time
 
-st.write(os.listdir(BASE_DIR))
+
 BASE_DIR = os.path.dirname(__file__)
 model_path = os.path.join(BASE_DIR, "sentiment_pipeline.pkl")
+st.write(os.listdir(BASE_DIR))
 
 model = joblib.load(model_path)
     
