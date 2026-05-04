@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(__file__)
 model_path = os.path.join(BASE_DIR, "sentiment_pipeline.pkl")
 
 
-    model = joblib.load("sentiment_pipeline.pkl")
+model = joblib.load("sentiment_pipeline.pkl")
     
 st.set_page_config(page_title="Sentiment Analyzer", page_icon="🎬", layout="centered")
 
