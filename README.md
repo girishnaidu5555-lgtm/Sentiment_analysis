@@ -77,5 +77,5 @@ Support multi-language reviews
 
 👨‍💻 Author
 
-Girish Naidu
+Girish Kunar.T
 student.
