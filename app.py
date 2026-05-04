@@ -3,7 +3,7 @@ import streamlit as st
 import os
 import time
 
-
+print(joblib.__version__)
 BASE_DIR = os.path.dirname(__file__)
 model_path = os.path.join(BASE_DIR, "sentiment_pipeline.pkl")
 
