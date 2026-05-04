@@ -9,7 +9,7 @@ import time
 
 BASE_DIR = os.path.dirname(__file__)
 model_path = os.path.join(BASE_DIR, "sentiment_pipeline.pkl")
-st.write(os.listdir(BASE_DIR))
+
 
 model = joblib.load(model_path)
     
