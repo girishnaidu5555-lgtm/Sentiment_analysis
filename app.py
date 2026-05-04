@@ -3,12 +3,10 @@ import streamlit as st
 import os
 import time
 
-
 BASE_DIR = os.path.dirname(__file__)
-model_path = os.path.join(BASE_DIR, "sentiment_analysis", "sentiment_pipeline.pkl")
+model_path = os.path.join(BASE_DIR, "sentiment_pipeline.pkl")
 
-
-model = joblib.load("sentiment_pipeline.pkl")
+model = joblib.load(model_path)
     
 st.set_page_config(page_title="Sentiment Analyzer", page_icon="🎬", layout="centered")
 
