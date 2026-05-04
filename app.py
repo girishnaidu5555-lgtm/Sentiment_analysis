@@ -1,6 +1,9 @@
+import os
+print("current directory",os.getcwd())
+print("files here",os.listdir())
+
 import joblib
 import streamlit as st
-import os
 import time
 
 BASE_DIR = os.path.dirname(__file__)
